@@ -1,0 +1,186 @@
+
+===== MOVIE TICKET BOOKING =====
+1. Movies
+2. Book
+3. Cancel
+4. My tickets
+0. Exit
+Choice: Invalid menu choice.
+
+===== MOVIE TICKET BOOKING =====
+1. Movies
+2. Book
+3. Cancel
+4. My tickets
+0. Exit
+Choice: 
+Currently Playing Movies
+[1] 3 Idiots    Hindi    170 min
+[2] Interstellar    English    169 min
+Select movie: 
+Shows for 3 Idiots
+[1] Screen-1   06:00 PM
+[2] Screen-2   09:00 PM
+Select show: 
+Screen-1   06:00 PM   3 Idiots
+
+[ ] = AVAILABLE, [X] = BOOKED
+SILVER   A1[ ] A2[ ] A3[ ] A4[ ] 
+GOLD   B1[ ] B2[ ] B3[ ] B4[ ] 
+PLATINUM   C1[ ] C2[ ] 
+Customer name: Phone: Seats (example A1,B2): 
+Pay by:
+1. UPI
+2. Card
+3. Cash
+Choice: Simulate payment success? 1.Yes 2.No: 
+Price Breakup
+A1 SILVER    Rs.150
+B2 GOLD    Rs.250
+TOTAL        Rs.400
+[UPI] Rs.400 paid successfully
+
+=============== TICKET ===============
+Booking ID : BK1001
+Customer   : Rahul Sharma
+Movie      : 3 Idiots
+Screen     : Screen-1
+Time       : 06:00 PM
+Seats      : A1, B2
+Amount     : Rs.400
+Status     : CONFIRMED
+======================================
+
+===== MOVIE TICKET BOOKING =====
+1. Movies
+2. Book
+3. Cancel
+4. My tickets
+0. Exit
+Choice: 
+Currently Playing Movies
+[1] 3 Idiots    Hindi    170 min
+[2] Interstellar    English    169 min
+Select movie: 
+Shows for 3 Idiots
+[1] Screen-1   06:00 PM
+[2] Screen-2   09:00 PM
+Select show: 
+Screen-1   06:00 PM   3 Idiots
+
+[ ] = AVAILABLE, [X] = BOOKED
+SILVER   A1[X] A2[ ] A3[ ] A4[ ] 
+GOLD   B1[ ] B2[X] B3[ ] B4[ ] 
+PLATINUM   C1[ ] C2[ ] 
+Customer name: Phone: Seats (example A1,B2): 
+Pay by:
+1. UPI
+2. Card
+3. Cash
+Choice: Simulate payment success? 1.Yes 2.No: Seat A1 is already BOOKED. Entire booking rejected.
+
+===== MOVIE TICKET BOOKING =====
+1. Movies
+2. Book
+3. Cancel
+4. My tickets
+0. Exit
+Choice: Booking ID to cancel: Booking cancelled. Seats are AVAILABLE again.
+
+===== MOVIE TICKET BOOKING =====
+1. Movies
+2. Book
+3. Cancel
+4. My tickets
+0. Exit
+Choice: 
+Currently Playing Movies
+[1] 3 Idiots    Hindi    170 min
+[2] Interstellar    English    169 min
+Select movie: 
+Shows for 3 Idiots
+[1] Screen-1   06:00 PM
+[2] Screen-2   09:00 PM
+Select show: 
+Screen-1   06:00 PM   3 Idiots
+
+[ ] = AVAILABLE, [X] = BOOKED
+SILVER   A1[ ] A2[ ] A3[ ] A4[ ] 
+GOLD   B1[ ] B2[ ] B3[ ] B4[ ] 
+PLATINUM   C1[ ] C2[ ] 
+Customer name: Phone: Seats (example A1,B2): 
+Pay by:
+1. UPI
+2. Card
+3. Cash
+Choice: Simulate payment success? 1.Yes 2.No: 
+Price Breakup
+A1 SILVER    Rs.150
+TOTAL        Rs.150
+[UPI] Payment failed
+Booking failed. Seats released.
+
+===== MOVIE TICKET BOOKING =====
+1. Movies
+2. Book
+3. Cancel
+4. My tickets
+0. Exit
+Choice: 
+Currently Playing Movies
+[1] 3 Idiots    Hindi    170 min
+[2] Interstellar    English    169 min
+Select movie: 
+Shows for 3 Idiots
+[1] Screen-1   06:00 PM
+[2] Screen-2   09:00 PM
+Select show: 
+Screen-1   06:00 PM   3 Idiots
+
+[ ] = AVAILABLE, [X] = BOOKED
+SILVER   A1[ ] A2[ ] A3[ ] A4[ ] 
+GOLD   B1[ ] B2[ ] B3[ ] B4[ ] 
+PLATINUM   C1[ ] C2[ ] 
+Customer name: Phone: Seats (example A1,B2): 
+Pay by:
+1. UPI
+2. Card
+3. Cash
+Choice: Simulate payment success? 1.Yes 2.No: Invalid seat number: D9
+
+===== MOVIE TICKET BOOKING =====
+1. Movies
+2. Book
+3. Cancel
+4. My tickets
+0. Exit
+Choice: 
+=============== TICKET ===============
+Booking ID : BK1001
+Customer   : Rahul Sharma
+Movie      : 3 Idiots
+Screen     : Screen-1
+Time       : 06:00 PM
+Seats      : A1, B2
+Amount     : Rs.400
+Status     : CANCELLED
+======================================
+
+=============== TICKET ===============
+Booking ID : BK1002
+Customer   : Rahul Sharma
+Movie      : 3 Idiots
+Screen     : Screen-1
+Time       : 06:00 PM
+Seats      : A1
+Amount     : Rs.150
+Status     : FAILED
+======================================
+
+===== MOVIE TICKET BOOKING =====
+1. Movies
+2. Book
+3. Cancel
+4. My tickets
+0. Exit
+Choice: Thank you.
